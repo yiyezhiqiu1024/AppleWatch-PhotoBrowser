@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="10032"/>
+    </dependencies>
+    <scenes>
+        <!--ad_00.png-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller backgroundImage="ad_00.png" id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <connections>
+                        <segue destination="2SL-rb-KlN" kind="relationship" relationship="nextPage" id="loI-dq-igF"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--ad_01.png-->
+        <scene sceneID="rxt-0r-MBf">
+            <objects>
+                <controller backgroundImage="ad_01.png" id="2SL-rb-KlN">
+                    <connections>
+                        <segue destination="Ivf-dd-XzS" kind="relationship" relationship="nextPage" id="3Wd-on-kSX"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="487" y="345"/>
+        </scene>
+        <!--ad_02.png-->
+        <scene sceneID="CbQ-Jc-5py">
+            <objects>
+                <controller backgroundImage="ad_02.png" id="Ivf-dd-XzS">
+                    <connections>
+                        <segue destination="YVu-OS-iSY" kind="relationship" relationship="nextPage" id="EgV-pI-REc"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="753" y="345"/>
+        </scene>
+        <!--ad_03.png-->
+        <scene sceneID="whi-1u-Un3">
+            <objects>
+                <controller backgroundImage="ad_03.png" id="YVu-OS-iSY">
+                    <connections>
+                        <segue destination="vLI-EB-IVI" kind="relationship" relationship="nextPage" id="DKe-YE-KEv"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1011" y="348"/>
+        </scene>
+        <!--ad_04.png-->
+        <scene sceneID="zhi-vv-xVq">
+            <objects>
+                <controller backgroundImage="ad_04.png" id="vLI-EB-IVI"/>
+            </objects>
+            <point key="canvasLocation" x="1274" y="348"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>

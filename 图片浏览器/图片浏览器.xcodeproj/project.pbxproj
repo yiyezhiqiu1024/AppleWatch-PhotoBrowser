@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9295B3EA1D66EE7000B574B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9295B3E91D66EE7000B574B1 /* main.m */; };
+		9295B3ED1D66EE7000B574B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9295B3EC1D66EE7000B574B1 /* AppDelegate.m */; };
+		9295B3F01D66EE7000B574B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9295B3EF1D66EE7000B574B1 /* ViewController.m */; };
+		9295B3F31D66EE7000B574B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9295B3F11D66EE7000B574B1 /* Main.storyboard */; };
+		9295B3F51D66EE7000B574B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9295B3F41D66EE7000B574B1 /* Assets.xcassets */; };
+		9295B3F81D66EE7000B574B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9295B3F61D66EE7000B574B1 /* LaunchScreen.storyboard */; };
+		9295B3FD1D66EE7000B574B1 /* 图片浏览器 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9295B3FC1D66EE7000B574B1 /* 图片浏览器 WatchKit App.app */; };
+		9295B4031D66EE7000B574B1 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9295B4011D66EE7000B574B1 /* Interface.storyboard */; };
+		9295B4051D66EE7000B574B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9295B4041D66EE7000B574B1 /* Assets.xcassets */; };
+		9295B40C1D66EE7000B574B1 /* 图片浏览器 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9295B40B1D66EE7000B574B1 /* 图片浏览器 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9295B4141D66EE7000B574B1 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9295B4131D66EE7000B574B1 /* InterfaceController.m */; };
+		9295B4171D66EE7000B574B1 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9295B4161D66EE7000B574B1 /* ExtensionDelegate.m */; };
+		9295B41A1D66EE7000B574B1 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9295B4191D66EE7000B574B1 /* NotificationController.m */; };
+		9295B41C1D66EE7000B574B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9295B41B1D66EE7000B574B1 /* Assets.xcassets */; };
+		9295B4311D66EE9800B574B1 /* ad_00.png in Resources */ = {isa = PBXBuildFile; fileRef = 9295B42C1D66EE9800B574B1 /* ad_00.png */; };
+		9295B4321D66EE9800B574B1 /* ad_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9295B42D1D66EE9800B574B1 /* ad_01.png */; };
+		9295B4331D66EE9800B574B1 /* ad_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 9295B42E1D66EE9800B574B1 /* ad_02.png */; };
+		9295B4341D66EE9800B574B1 /* ad_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 9295B42F1D66EE9800B574B1 /* ad_03.png */; };
+		9295B4351D66EE9800B574B1 /* ad_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 9295B4301D66EE9800B574B1 /* ad_04.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9295B3FE1D66EE7000B574B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9295B3DD1D66EE7000B574B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9295B3FB1D66EE7000B574B1;
+			remoteInfo = "图片浏览器 WatchKit App";
+		};
+		9295B40D1D66EE7000B574B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9295B3DD1D66EE7000B574B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9295B40A1D66EE7000B574B1;
+			remoteInfo = "图片浏览器 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9295B4231D66EE7000B574B1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9295B40C1D66EE7000B574B1 /* 图片浏览器 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9295B4271D66EE7000B574B1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9295B3FD1D66EE7000B574B1 /* 图片浏览器 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9295B3E51D66EE7000B574B1 /* 图片浏览器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "图片浏览器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9295B3E91D66EE7000B574B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9295B3EB1D66EE7000B574B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9295B3EC1D66EE7000B574B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9295B3EE1D66EE7000B574B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9295B3EF1D66EE7000B574B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9295B3F21D66EE7000B574B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9295B3F41D66EE7000B574B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9295B3F71D66EE7000B574B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9295B3F91D66EE7000B574B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9295B3FC1D66EE7000B574B1 /* 图片浏览器 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "图片浏览器 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9295B4021D66EE7000B574B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		9295B4041D66EE7000B574B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9295B4061D66EE7000B574B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9295B40B1D66EE7000B574B1 /* 图片浏览器 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "图片浏览器 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9295B4111D66EE7000B574B1 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		9295B4121D66EE7000B574B1 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		9295B4131D66EE7000B574B1 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		9295B4151D66EE7000B574B1 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		9295B4161D66EE7000B574B1 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		9295B4181D66EE7000B574B1 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		9295B4191D66EE7000B574B1 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		9295B41B1D66EE7000B574B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9295B41D1D66EE7000B574B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9295B42C1D66EE9800B574B1 /* ad_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ad_00.png; sourceTree = "<group>"; };
+		9295B42D1D66EE9800B574B1 /* ad_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ad_01.png; sourceTree = "<group>"; };
+		9295B42E1D66EE9800B574B1 /* ad_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ad_02.png; sourceTree = "<group>"; };
+		9295B42F1D66EE9800B574B1 /* ad_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ad_03.png; sourceTree = "<group>"; };
+		9295B4301D66EE9800B574B1 /* ad_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ad_04.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9295B3E21D66EE7000B574B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9295B4081D66EE7000B574B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9295B3DC1D66EE7000B574B1 = {
+			isa = PBXGroup;
+			children = (
+				9295B3E71D66EE7000B574B1 /* 图片浏览器 */,
+				9295B4001D66EE7000B574B1 /* 图片浏览器 WatchKit App */,
+				9295B40F1D66EE7000B574B1 /* 图片浏览器 WatchKit Extension */,
+				9295B3E61D66EE7000B574B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9295B3E61D66EE7000B574B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9295B3E51D66EE7000B574B1 /* 图片浏览器.app */,
+				9295B3FC1D66EE7000B574B1 /* 图片浏览器 WatchKit App.app */,
+				9295B40B1D66EE7000B574B1 /* 图片浏览器 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9295B3E71D66EE7000B574B1 /* 图片浏览器 */ = {
+			isa = PBXGroup;
+			children = (
+				9295B3EB1D66EE7000B574B1 /* AppDelegate.h */,
+				9295B3EC1D66EE7000B574B1 /* AppDelegate.m */,
+				9295B3EE1D66EE7000B574B1 /* ViewController.h */,
+				9295B3EF1D66EE7000B574B1 /* ViewController.m */,
+				9295B3F11D66EE7000B574B1 /* Main.storyboard */,
+				9295B3F41D66EE7000B574B1 /* Assets.xcassets */,
+				9295B3F61D66EE7000B574B1 /* LaunchScreen.storyboard */,
+				9295B3F91D66EE7000B574B1 /* Info.plist */,
+				9295B3E81D66EE7000B574B1 /* Supporting Files */,
+			);
+			path = "图片浏览器";
+			sourceTree = "<group>";
+		};
+		9295B3E81D66EE7000B574B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9295B3E91D66EE7000B574B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9295B4001D66EE7000B574B1 /* 图片浏览器 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				9295B42B1D66EE9800B574B1 /* ads */,
+				9295B4011D66EE7000B574B1 /* Interface.storyboard */,
+				9295B4041D66EE7000B574B1 /* Assets.xcassets */,
+				9295B4061D66EE7000B574B1 /* Info.plist */,
+			);
+			path = "图片浏览器 WatchKit App";
+			sourceTree = "<group>";
+		};
+		9295B40F1D66EE7000B574B1 /* 图片浏览器 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9295B4121D66EE7000B574B1 /* InterfaceController.h */,
+				9295B4131D66EE7000B574B1 /* InterfaceController.m */,
+				9295B4151D66EE7000B574B1 /* ExtensionDelegate.h */,
+				9295B4161D66EE7000B574B1 /* ExtensionDelegate.m */,
+				9295B4181D66EE7000B574B1 /* NotificationController.h */,
+				9295B4191D66EE7000B574B1 /* NotificationController.m */,
+				9295B41B1D66EE7000B574B1 /* Assets.xcassets */,
+				9295B41D1D66EE7000B574B1 /* Info.plist */,
+				9295B4101D66EE7000B574B1 /* Supporting Files */,
+			);
+			path = "图片浏览器 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		9295B4101D66EE7000B574B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9295B4111D66EE7000B574B1 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9295B42B1D66EE9800B574B1 /* ads */ = {
+			isa = PBXGroup;
+			children = (
+				9295B42C1D66EE9800B574B1 /* ad_00.png */,
+				9295B42D1D66EE9800B574B1 /* ad_01.png */,
+				9295B42E1D66EE9800B574B1 /* ad_02.png */,
+				9295B42F1D66EE9800B574B1 /* ad_03.png */,
+				9295B4301D66EE9800B574B1 /* ad_04.png */,
+			);
+			path = ads;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9295B3E41D66EE7000B574B1 /* 图片浏览器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9295B4281D66EE7000B574B1 /* Build configuration list for PBXNativeTarget "图片浏览器" */;
+			buildPhases = (
+				9295B3E11D66EE7000B574B1 /* Sources */,
+				9295B3E21D66EE7000B574B1 /* Frameworks */,
+				9295B3E31D66EE7000B574B1 /* Resources */,
+				9295B4271D66EE7000B574B1 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9295B3FF1D66EE7000B574B1 /* PBXTargetDependency */,
+			);
+			name = "图片浏览器";
+			productName = "图片浏览器";
+			productReference = 9295B3E51D66EE7000B574B1 /* 图片浏览器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9295B3FB1D66EE7000B574B1 /* 图片浏览器 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9295B4241D66EE7000B574B1 /* Build configuration list for PBXNativeTarget "图片浏览器 WatchKit App" */;
+			buildPhases = (
+				9295B3FA1D66EE7000B574B1 /* Resources */,
+				9295B4231D66EE7000B574B1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9295B40E1D66EE7000B574B1 /* PBXTargetDependency */,
+			);
+			name = "图片浏览器 WatchKit App";
+			productName = "图片浏览器 WatchKit App";
+			productReference = 9295B3FC1D66EE7000B574B1 /* 图片浏览器 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		9295B40A1D66EE7000B574B1 /* 图片浏览器 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9295B4201D66EE7000B574B1 /* Build configuration list for PBXNativeTarget "图片浏览器 WatchKit Extension" */;
+			buildPhases = (
+				9295B4071D66EE7000B574B1 /* Sources */,
+				9295B4081D66EE7000B574B1 /* Frameworks */,
+				9295B4091D66EE7000B574B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "图片浏览器 WatchKit Extension";
+			productName = "图片浏览器 WatchKit Extension";
+			productReference = 9295B40B1D66EE7000B574B1 /* 图片浏览器 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9295B3DD1D66EE7000B574B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SLZeng;
+				TargetAttributes = {
+					9295B3E41D66EE7000B574B1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9295B3FB1D66EE7000B574B1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9295B40A1D66EE7000B574B1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9295B3E01D66EE7000B574B1 /* Build configuration list for PBXProject "图片浏览器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9295B3DC1D66EE7000B574B1;
+			productRefGroup = 9295B3E61D66EE7000B574B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9295B3E41D66EE7000B574B1 /* 图片浏览器 */,
+				9295B3FB1D66EE7000B574B1 /* 图片浏览器 WatchKit App */,
+				9295B40A1D66EE7000B574B1 /* 图片浏览器 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9295B3E31D66EE7000B574B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9295B3F81D66EE7000B574B1 /* LaunchScreen.storyboard in Resources */,
+				9295B3F51D66EE7000B574B1 /* Assets.xcassets in Resources */,
+				9295B3F31D66EE7000B574B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9295B3FA1D66EE7000B574B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9295B4051D66EE7000B574B1 /* Assets.xcassets in Resources */,
+				9295B4351D66EE9800B574B1 /* ad_04.png in Resources */,
+				9295B4321D66EE9800B574B1 /* ad_01.png in Resources */,
+				9295B4331D66EE9800B574B1 /* ad_02.png in Resources */,
+				9295B4031D66EE7000B574B1 /* Interface.storyboard in Resources */,
+				9295B4311D66EE9800B574B1 /* ad_00.png in Resources */,
+				9295B4341D66EE9800B574B1 /* ad_03.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9295B4091D66EE7000B574B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9295B41C1D66EE7000B574B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9295B3E11D66EE7000B574B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9295B3F01D66EE7000B574B1 /* ViewController.m in Sources */,
+				9295B3ED1D66EE7000B574B1 /* AppDelegate.m in Sources */,
+				9295B3EA1D66EE7000B574B1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9295B4071D66EE7000B574B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9295B4171D66EE7000B574B1 /* ExtensionDelegate.m in Sources */,
+				9295B4141D66EE7000B574B1 /* InterfaceController.m in Sources */,
+				9295B41A1D66EE7000B574B1 /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9295B3FF1D66EE7000B574B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9295B3FB1D66EE7000B574B1 /* 图片浏览器 WatchKit App */;
+			targetProxy = 9295B3FE1D66EE7000B574B1 /* PBXContainerItemProxy */;
+		};
+		9295B40E1D66EE7000B574B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9295B40A1D66EE7000B574B1 /* 图片浏览器 WatchKit Extension */;
+			targetProxy = 9295B40D1D66EE7000B574B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9295B3F11D66EE7000B574B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9295B3F21D66EE7000B574B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9295B3F61D66EE7000B574B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9295B3F71D66EE7000B574B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9295B4011D66EE7000B574B1 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9295B4021D66EE7000B574B1 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9295B41E1D66EE7000B574B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9295B41F1D66EE7000B574B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9295B4211D66EE7000B574B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "图片浏览器 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zeng.-----.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		9295B4221D66EE7000B574B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "图片浏览器 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zeng.-----.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		9295B4251D66EE7000B574B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = "______WatchKit_Extension";
+				INFOPLIST_FILE = "图片浏览器 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zeng.-----.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		9295B4261D66EE7000B574B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = "______WatchKit_Extension";
+				INFOPLIST_FILE = "图片浏览器 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zeng.-----.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		9295B4291D66EE7000B574B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "图片浏览器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zeng.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9295B42A1D66EE7000B574B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "图片浏览器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zeng.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9295B3E01D66EE7000B574B1 /* Build configuration list for PBXProject "图片浏览器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9295B41E1D66EE7000B574B1 /* Debug */,
+				9295B41F1D66EE7000B574B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9295B4201D66EE7000B574B1 /* Build configuration list for PBXNativeTarget "图片浏览器 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9295B4211D66EE7000B574B1 /* Debug */,
+				9295B4221D66EE7000B574B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9295B4241D66EE7000B574B1 /* Build configuration list for PBXNativeTarget "图片浏览器 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9295B4251D66EE7000B574B1 /* Debug */,
+				9295B4261D66EE7000B574B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9295B4281D66EE7000B574B1 /* Build configuration list for PBXNativeTarget "图片浏览器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9295B4291D66EE7000B574B1 /* Debug */,
+				9295B42A1D66EE7000B574B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9295B3DD1D66EE7000B574B1 /* Project object */;
+}
